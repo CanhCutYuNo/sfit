@@ -1,0 +1,199 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: #F1F1F1;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Similar to W3.CSS */
+    font-size: 16px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: all 0.9s ease;
+}
+
+.avatar {
+    position: relative; /* Để lớp con có thể định vị tuyệt đối trong khung ảnh */
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.name {
+    position: absolute;
+    bottom: 1px; 
+    left: 5px; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.name h2 {
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 22px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    line-height: 24px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.skill .progress-bar {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill .progress {
+    height: 16px; 
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    line-height: 16px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+
+.left {
+    background: #FFF;
+    width: 35%;
+    border: 1px1px solid rgba(0, 0, 0, 0.1);;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.info {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.date-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    color: teal;
+}
+
+.fa-calendar {
+    margin-right: 5px;
+}
+
+.highlight {
+    background-color: teal;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.head {
+    background: #FFFFFF;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 0;
+}
+
+.bot {
+    background: #FFFFFF;
+    padding: 20px;
+    margin: 15px;
+}
+
+.info p img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.info {
+    margin-bottom: 15px;
+}
+
+h1 {
+    line-height: 1.5;
+    display: inline-flex;
+    align-items: center;
+}
+
+h1 p {
+    vertical-align: middle;
+    margin-right: 8px; /* Adds space between icon and text */
+}
+
+.footer {
+    background-color: #008b7f;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    margin-top: 15px;
+  }
+  
+  .footer .social-icons a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #9b988c; 
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .footer a {
+    color: white;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
